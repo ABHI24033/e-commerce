@@ -1,0 +1,89 @@
+footer{
+    background-color: rgba(34, 32, 32, 0.911);
+    /* padding: 2rem 0; */
+    padding-top:2rem ;
+    margin-top: 3rem;
+
+}
+.upper-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    padding: 1rem 1rem;
+    margin: auto;
+    /* background-color: red; */
+    border-bottom: 1px solid white;
+}
+footer h2{
+    color: white;
+    font-size: 1.2rem;
+    /* line-height: 3rem; */
+    margin-bottom: 1rem;
+}
+.icon{
+    color:rgb(196, 193, 193);
+    font-size: 1.2rem;
+}
+.icon i:hover{
+    color: white;
+    border-color: white;
+}
+.footer-address,.reservation,.opening-hours{
+    display: flex;
+    gap: 1rem;
+}
+.follow-us{
+    font-size: 1.2rem;
+}
+.footer-address p,.reservation p,.opening-hours p,.follow-us p{
+    color: rgb(196, 193, 193);line-height: 0.3rem;
+
+}
+.footer-address p>span,.reservation p>span,.opening-hours p>span,.follow-us p>span{
+    font-weight: bold;
+}
+.follow-us i{
+    border: 1px solid rgb(196, 193, 193);
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.lower-footer{
+    color: rgb(196, 193, 193);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+.lower-footer p{
+    line-height: 0.3rem;
+}
+.lower-footer p>span{
+    font-weight: bold;
+}
+.map{
+    width: 80%;
+    margin: 3rem auto;
+}
+.map>iframe{
+    width: 100%;
+    height: 20rem;
+}
+
+/* responsive css */
+/* @media (max-width:990px) {
+   
+    
+} */
+@media (max-width:668px) {
+   .upper-footer{
+    flex-direction: column;
+   }
+}
+/* @media (max-width:440px) {
+    
+} */

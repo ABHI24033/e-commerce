@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Roboto&display=swap');
+.menu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 5rem 0;
+}
+ /* .menu h4{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}  */
+/* .menu>h1{
+    
+    font-family: 'Amatic SC', sans-serif;
+    font-size:3rem ;
+    font-weight: 500;
+} */
+.menu>h1>span{
+    color: #ec2727;
+}
+
+.menu ul{
+    display: flex;
+    gap: 1rem;
+    /* background-color: #ec2727; */
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    color: rgb(65, 63, 63);
+    
+}
+.menu ul>li{
+    padding: 7px 5px;
+    border-bottom: 2px solid rgb(65, 63, 63);
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.menu ul>li:hover{
+    color: #ec2727;
+    border-bottom: 2px solid #ec2727;
+}
+/* .menu-active{
+    color: #ec2727;
+    /* border-color: #ec2727; */
+    /* border-bottom: 2px solid #ec2727; */
+/* } */ 
+.menu-card{
+    /* background-color: #ec2727; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+.menu-card >.card{
+    margin: 1.5rem;
+    width: 20rem;
+    height: 24rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 1px 1px 3px gray;
+    
+}
+.menu-card>.card>img{
+    width: 14rem;
+    
+}
+.menu-card>.card>h2{
+    color: rgb(63, 62, 62);
+    margin-top: 5px;
+    font-size: 1.3rem;
+}
+.menu-card>.card>p{
+    color: gray;
+    padding: 2px;
+}
+.menu-card>.card>h1{
+    font-size: 1.8rem;
+    color: #ec2727;
+    padding: 2px;
+}
