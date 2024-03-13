@@ -16,8 +16,8 @@ const Footer = () => {
                         </div>
                         <div className="para">
                             <h2>Address</h2>
-                            <p>Barfani jal street</p>
-                            <p>Ratu Road, Ranchi 834001</p>
+                            <p>Nimbaheda Road </p>
+                            <p>Chittori, Chittorgarh </p>
                         </div>
                     </div>
 
@@ -26,9 +26,9 @@ const Footer = () => {
                             <i className="fa-solid fa-phone"></i>
                         </div>
                         <div className="add">
-                            <h2>Reservation</h2>
-                            <p><span>Phone:</span>+91 0123456789</p>
-                            <p><span>Email:</span>abhi24033c@gamil.com</p>
+                            <h2>Booking</h2>
+                            <p><span>Phone:</span>+91 8005656761</p>
+                            <p><span>Email:</span> vipsnew10@gmail.com </p>
                         </div>
                     </div>
                     <div className="opening-hours">
@@ -46,16 +46,16 @@ const Footer = () => {
                         <h2>Follow Us</h2>
                         {/* <!-- </div> --> */}
                         <div className="icon">
-                            <i className="fa-brands fa-x-twitter"></i>
-                            <i className="fa-brands fa-facebook"></i>
-                            <i className="fa-brands fa-instagram"></i>
-                            <i className="fa-brands fa-linkedin"></i>
+                            <a href=""><i className="fa-brands fa-x-twitter"></i></a>
+                            <a href=""><i className="fa-brands fa-facebook"></i></a>
+                            <a href=""><i className="fa-brands fa-instagram"></i></a>
+                            <a href=""><i className="fa-brands fa-linkedin"></i></a>
                         </div>
                     </div>
                 </div>
                 <div className="lower-footer">
-                    <p>&#169;copyright <span>Abhi Restaurent. </span> All right reserve</p>
-                    <p>Designed by Abhishek Kumar</p>
+                    <p>&#169;copyright <span>E-Commerce. </span> All right reserve</p>
+                    {/* <p>Designed by Abhishek Kumar</p> */}
                 </div>
             </footer>
         </div>

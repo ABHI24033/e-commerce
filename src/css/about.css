@@ -55,20 +55,17 @@
 
 .about-right{
     width: 40%;
+    margin-top: -4rem;
 }
 .about-right p{
-    line-height: 1.6rem;
+    line-height: 1.2rem;
     font-family: "Inter", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-style: italic;
     color: rgb(46, 44, 44);
     margin: 1rem 0;
 }
-.about-right>.video{
-    width: 25rem;
-    height: 22rem;
-    position: relative;
-}
+
 .about-right .video>img{
     width: 100%;
 }
