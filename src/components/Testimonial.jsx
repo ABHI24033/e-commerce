@@ -1,6 +1,7 @@
 import React from 'react';
 
 import "../css/testimonial.css";
+import carousel2 from "../assets/carousel2.jpg";
 const Testimonial = () => {
     return (
         <div>
@@ -27,18 +28,16 @@ const Testimonial = () => {
                                         <div className="content-text">
                                             <p>
                                                 <i className="fa-solid fa-quote-left"></i>
-                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius
-                                                dignissimos voluptatem nisi obcaecati quia cupiditate modi consequatur blanditiis
-                                                error quasi non voluptatibus perspiciatis et odit, voluptas tenetur quaerat, magnam
-                                                vitae.
+                                                I recently purchased the a Shirt from [E-commerce Website Name], and I must say, I'm absolutely delighted with my purchase! The quality of the fabric is exceptional, and the intricate embroidery work is truly stunning. The fit is perfect, just as described in the size chart.
                                                 <i className="fa-solid fa-quote-right"></i>
                                             </p>
-                                            <h2>Soul Goodman</h2>
-                                            <h4>CEO & Founder</h4>
+                                            <h2>Mohan Singh</h2>
+                                            <h4>Ranchi, Jharkhand</h4>
+                                            {/* <h4>CEO & Founder</h4> */}
                                         </div>
-                                        <div className="img">
-                                            <img src="./asset/testimonials/testimonials-1.jpg" alt=""/>
-                                        </div>
+                                        {/* <div className="img">
+                                            <img src={carousel2} alt=""/>
+                                        </div> */}
                                     </div>
                             </div>
 
@@ -47,18 +46,15 @@ const Testimonial = () => {
                                     <div className="content-text">
                                         <p>
                                             <i className="fa-solid fa-quote-left"></i>
-                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius
-                                            dignissimos voluptatem nisi obcaecati quia cupiditate modi consequatur blanditiis
-                                            error quasi non voluptatibus perspiciatis et odit, voluptas tenetur quaerat, magnam
-                                            vitae.
+                                            I recently purchased a Lahnga from [E-commerce Website Name], and it was exactly as described in the product description. Not only is this outfit beautiful, but it's also incredibly comfortable to wear. I wore it to a family function, and I received so many compliments. It's definitely a head-turner!
                                             <i className="fa-solid fa-quote-right"></i>
                                         </p>
-                                        <h2>Sara Wilsson</h2>
-                                        <h4>Designer</h4>
+                                        <h2>Sara Singh</h2>
+                                        <h4>Delhi</h4>
                                     </div>
-                                    <div className="img">
+                                    {/* <div className="img">
                                         <img src="./asset/testimonials/testimonials-2.jpg" alt=""/>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
 
@@ -67,18 +63,18 @@ const Testimonial = () => {
                                     <div className="content-text">
                                         <p>
                                             <i className="fa-solid fa-quote-left"></i>
-                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius
-                                            dignissimos voluptatem nisi obcaecati quia cupiditate modi consequatur blanditiis
-                                            error quasi non voluptatibus perspiciatis et odit, voluptas tenetur quaerat, magnam
-                                            vitae.
+                                            Overall, I'm satisfied with my purchase and the service provided by [E-commerce Website Name]. I would definitely consider shopping here again for Indian clothing needs.
+
+
                                             <i className="fa-solid fa-quote-right"></i>
                                         </p>
-                                        <h2>Jana Karlis</h2>
-                                        <h4>Store Owner</h4>
+                                        <h2>Manish Kumar</h2>
+                                        <h4>Benglore, Karnataka</h4>
+                                        {/* <h4>Store Owner</h4> */}
                                     </div>
-                                    <div className="img">
+                                    {/* <div className="img">
                                         <img src="./asset/testimonials/testimonials-3.jpg" alt=""/>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
 
@@ -87,18 +83,16 @@ const Testimonial = () => {
                                     <div className="content-text">
                                         <p>
                                             <i className="fa-solid fa-quote-left"></i>
-                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius
-                                            dignissimos voluptatem nisi obcaecati quia cupiditate modi consequatur blanditiis
-                                            error quasi non voluptatibus perspiciatis et odit, voluptas tenetur quaerat, magnam
-                                            vitae.
+                                            One of the things I appreciate the most about this purchase is the fit. Often, it's challenging to find Indian clothing that fits perfectly, especially when ordering online. However, the size chart provided by [E-commerce Website Name] was accurate, and the outfit fits me like a dream.
                                             <i className="fa-solid fa-quote-right"></i>
                                         </p>
-                                        <h2>John Larson</h2>
-                                        <h4>Entrepreneur</h4>
+                                        <h2>Sweta Jha</h2>
+                                        <h4>Patana, Bihar</h4>
+                                        {/* <h4>Entrepreneur</h4> */}
                                     </div>
-                                    <div className="img">
+                                    {/* <div className="img">
                                         <img src="./asset/testimonials/testimonials-4.jpg" alt=""/>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>

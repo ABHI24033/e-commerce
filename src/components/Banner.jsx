@@ -30,7 +30,7 @@ const Banner = () => {
             <div class="carousel-inner carousel_size">
                 <div class="carousel-item active ">
                     <img src={about} class="d-block w-100" alt="..." />
-                    <div class="carousel-caption d-none d-md-block banner_content">
+                    <div class="carousel-caption  d-md-block banner_content">
                         <div>
                             <h1>First slide label</h1>
                             <p>Some representative placeholder content for the first slide.</p>
@@ -41,7 +41,7 @@ const Banner = () => {
                 </div>
                 <div class="carousel-item">
                     <img src={carousel2} class="d-block w-100" alt="..." />
-                    <div class="carousel-caption d-none d-md-block banner_content">
+                    <div class="carousel-caption d-md-block banner_content">
                         <div>
                             <h1>Second slide label</h1>
                             <p>Some representative placeholder content for the second slide.</p>
@@ -51,7 +51,7 @@ const Banner = () => {
                 </div>
                 <div class="carousel-item">
                     <img src={carousel} class="d-block w-100" alt="..." />
-                    <div class="carousel-caption d-none d-md-block banner_content">
+                    <div class="carousel-caption  d-md-block banner_content">
                         <div>
                             <h1>Third slide label</h1>
                             <p>Some representative placeholder content for the third slide.</p>
