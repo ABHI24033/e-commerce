@@ -1,6 +1,6 @@
 import React from 'react';
 
-import "../css/menu.css";
+import "../css/product.css";
 
 import kids from '../assets/kids.jpeg';
 import wedding from '../assets/wedding.jpg';
@@ -8,6 +8,8 @@ import bag from '../assets/bags.jpeg';
 import suit from '../assets/suit.jpg';
 import coat from '../assets/coat.jpeg';
 import sports from '../assets/sports.jpeg';
+import winter_men from "../assets/winter_men.jpeg"
+import winter_women from "../assets/winter_women.jpeg"
 const Products = () => {
     return (
         <section className="menu" id="menu">
@@ -48,6 +50,18 @@ const Products = () => {
                 <div className="card">
                     <img src={bag} alt="" />
                         <h2>Bags</h2>
+                        {/* <p>Lorem, deren, trataro, filede, nerada</p> */}
+                        {/* <h1>$7.60</h1> */}
+                </div>
+                <div className="card">
+                    <img src={winter_men} alt="" />
+                        <h2>Winter men's Cloths</h2>
+                        {/* <p>Lorem, deren, trataro, filede, nerada</p> */}
+                        {/* <h1>$7.60</h1> */}
+                </div>
+                <div className="card">
+                    <img src={winter_women} alt="" />
+                        <h2>Winter Women's Cloths</h2>
                         {/* <p>Lorem, deren, trataro, filede, nerada</p> */}
                         {/* <h1>$7.60</h1> */}
                 </div>

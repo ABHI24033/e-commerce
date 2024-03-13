@@ -60,8 +60,9 @@
     margin: 2rem 0;
 }
 .menu-card >.card{
-    margin: 1.5rem;
-    width: 20rem;
+    margin: 1.0rem;
+    min-width: 17rem;
+    width: 20%;
     height: 22rem;
     background-color: white;
     display: flex;
