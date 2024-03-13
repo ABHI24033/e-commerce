@@ -1,16 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Roboto&display=swap');
 
-.home{
+
+.carousel_size {
+    margin-top: 5rem;
+    height: 32rem;
+    /* background-image: linear-gradient(rgb(59, 58, 58),dark); */
+}
+.carousel-item{
+    position: relative!important;
+}
+.banner_content{
+    font-family: 'Roboto', sans;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    /* bottom: 0; */
+    /* right: 0; */
+    left: 0%;
+    /* margin-left: auto; */
+    margin-right: auto;
+    display: flex!important;
+    flex-direction: column;
+    align-items: center!important;
+    justify-content: center!important;
+    background-image: linear-gradient(90deg,rgba(0, 0, 0, 0.9),rgba(10, 10, 10, 0.3));
+}
+.banner_content>div{
+    /* background-color: red; */
+    margin-bottom: 30rem;
+    width: 50%;
+    text-align: start;
+}
+.banner_content>div>h1{
+    /* background-color: red; */
+    font-size: 3rem !important;
+    /* margin-bottom: 30rem; */
+}
+/* .home {
     display: flex;
     background-color: lightgray;
     align-items: center;
     justify-content: center;
     gap: 8rem;
     margin-top: 5rem;
-    padding: 3rem ;
+    padding: 3rem;
 }
 
-.home .leftside{
+.home .leftside {
     padding: 3rem;
     height: 27rem;
     width: 40rem;
@@ -19,36 +55,40 @@
     align-items: center;
     justify-content: center;
 }
-.home .leftside h1{
+
+.home .leftside h1 {
     font-family: 'Amatic SC', sans-serif;
     font-size: 3rem;
     color: rgb(19, 18, 18);
 }
-.home .leftside p{
+
+.home .leftside p {
     font-family: sans-serif;
     font-size: 1.2rem;
     color: rgb(19, 18, 18);
 }
-.home .rightside{
+
+.home .rightside {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.home .rightside>img{
+
+.home .rightside>img {
     /* width: 100%; */
-    width: 20rem;
+    /* width: 20rem; */
     /* background-color: red; */
 
-}
+/* } */
 
-.button{
+/* .button {
     width: 100%;
     display: flex;
     margin: 2rem;
     flex-wrap: wrap;
-    /* gap: 1rem; */
-}
-.button a>button{
+} */
+/* 
+.button a>button {
     background-color: #ec2727;
     color: white;
     padding: 10px 30px;
@@ -58,12 +98,13 @@
     border: none;
     outline: none;
     cursor: pointer;
-    /* margin: 1rem; */
 }
-.button a>button:hover{
+
+.button a>button:hover {
     opacity: 0.7;
-}
-.button>a:last-child{
+} */
+
+/* .button>a:last-child {
     padding: 10px;
     color: black;
     height: 2rem;
@@ -73,51 +114,59 @@
     width: 10rem;
     text-decoration: none;
     font-weight: 500;
-    /* margin: 1rem; */
 }
-.button>a:last-child:hover{
+
+.button>a:last-child:hover {
     color: #ec2727;
 }
-.button>a>i{
+
+.button>a>i {
     color: #ec2727;
     font-size: 1.7rem;
     margin-right: 3px;
-}
+} */
 
 /* =============responsive design======== */
-@media (max-width:990px) {
-    .home{
+/* @media (max-width:990px) {
+    .home {
         flex-direction: column-reverse;
         gap: 1rem;
     }
-    .home .leftside{
+
+    .home .leftside {
         width: 80%;
     }
 }
+
 @media (max-width:668px) {
-    .home .leftside{
+    .home .leftside {
         padding: 10px;
         margin: 0%;
     }
-    .home .leftside>h1{
+
+    .home .leftside>h1 {
         font-size: 3rem;
     }
+
     .home .rightside>img {
         width: 20rem;
     }
-}
+} */
+/* 
 @media (max-width:440px) {
-    .button{
-        /* flex-direction: column-reverse; */
+    .button {
         gap: 1rem;
     }
-    .home .leftside{
+
+    .home .leftside {
         width: 20rem;
     }
-    .home .leftside>h1{
+
+    .home .leftside>h1 {
         font-size: 2.7rem;
     }
+
     .home .rightside>img {
         width: 15rem;
     }
-}
+}  */

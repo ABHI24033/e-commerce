@@ -62,7 +62,7 @@
 .menu-card >.card{
     margin: 1.5rem;
     width: 20rem;
-    height: 24rem;
+    height: 22rem;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -73,8 +73,8 @@
     
 }
 .menu-card>.card>img{
-    width: 14rem;
-    
+    width: 16rem;
+    height: 17rem;
 }
 .menu-card>.card>h2{
     color: rgb(63, 62, 62);

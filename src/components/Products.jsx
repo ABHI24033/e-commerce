@@ -2,12 +2,12 @@ import React from 'react';
 
 import "../css/menu.css";
 
-import shirt from '../assets/shirts.jpeg';
-import t_shirt from '../assets/t-shirt.jpeg';
-import pant from '../assets/jeans.jpeg';
+import kids from '../assets/kids.jpeg';
+import wedding from '../assets/wedding.jpg';
+import bag from '../assets/bags.jpeg';
 import suit from '../assets/suit.jpg';
 import coat from '../assets/coat.jpeg';
-import saree from '../assets/saree.jpg';
+import sports from '../assets/sports.jpeg';
 const Products = () => {
     return (
         <section className="menu" id="menu">
@@ -16,40 +16,40 @@ const Products = () => {
             
             <div className="menu-card">
                 <div className="card">
-                    <img src={coat} alt=""/>
-                        <h2>Magnam Tiste</h2>
-                        <p>Lorem, deren, trataro, filede, nerada</p>
-                        <h1>$7.60</h1>
+                    <img src={coat} alt="" />
+                        <h2>Men's Wear</h2>
+                        {/* <p>Lorem, deren, trataro, filede, nerada</p> */}
+                        {/* <h1>$7.60</h1> */}
                 </div>
                 <div className="card">
-                    <img src={saree} alt=""/>
-                        <h2>Magnam Tiste</h2>
-                        <p>Lorem, deren, trataro, filede, nerada</p>
-                        <h1>$7.60</h1>
+                    <img src={suit} alt="" />
+                        <h2>Women's Wear</h2>
+                        {/* <p>Lorem, deren, trataro, filede, nerada</p> */}
+                        {/* <h1>$7.60</h1> */}
                 </div>
                 <div className="card">
-                    <img src={suit} alt=""/>
-                        <h2>Magnam Tiste</h2>
-                        <p>Lorem, deren, trataro, filede, nerada</p>
-                        <h1>$7.60</h1>
+                    <img src={kids} alt="" />
+                        <h2>Kid's Wear</h2>
+                        {/* <p>Lorem, deren, trataro, filede, nerada</p> */}
+                        {/* <h1>$7.60</h1> */}
                 </div>
                 <div className="card">
-                    <img src={t_shirt} alt=""/>
-                        <h2>Magnam Tiste</h2>
-                        <p>Lorem, deren, trataro, filede, nerada</p>
-                        <h1>$7.60</h1>
+                    <img src={wedding} alt="" />
+                        <h2>Wedding Cloths</h2>
+                        {/* <p>Lorem, deren, trataro, filede, nerada</p> */}
+                        {/* <h1>$7.60</h1> */}
                 </div>
                 <div className="card">
-                    <img src={shirt} alt=""/>
-                        <h2>Magnam Tiste</h2>
-                        <p>Lorem, deren, trataro, filede, nerada</p>
-                        <h1>$7.60</h1>
+                    <img src={sports} alt="" />
+                        <h2>Sport's Wear</h2>
+                        {/* <p>Lorem, deren, trataro, filede, nerada</p> */}
+                        {/* <h1>$7.60</h1> */}
                 </div>
                 <div className="card">
-                    <img src={pant} alt=""/>
-                        <h2>Magnam Tiste</h2>
-                        <p>Lorem, deren, trataro, filede, nerada</p>
-                        <h1>$7.60</h1>
+                    <img src={bag} alt="" />
+                        <h2>Bags</h2>
+                        {/* <p>Lorem, deren, trataro, filede, nerada</p> */}
+                        {/* <h1>$7.60</h1> */}
                 </div>
             </div>
         </section>

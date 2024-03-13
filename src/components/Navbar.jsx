@@ -20,7 +20,9 @@ const Navbar = () => {
                 <h1>E- commerce.</h1>
                 <nav className={`nav ${openNav ? `toggle` : ``}`}>
                     <ul>
-                        <li><Link to={'/'} className={`${activeNav === "home" ? "active-class" : ""}`} onClick={() => activeNavLink("home")}>Home</Link></li>
+                        <li>
+                            <Link to={'/'} className={`${activeNav === "home" ? "active-class" : ""}`} onClick={() => activeNavLink("home")}>Home</Link>
+                        </li>
                         <li><Link to={'/privacy_policy'} className={`${activeNav === "privacy_policy" ? "active-class" : ""}`} onClick={() => activeNavLink("privacy_policy")}>Privacy Policy</Link></li>
                         <li><Link to={'/term_condition'} className={`${activeNav === "term_condition" ? "active-class" : ""}`} onClick={() => activeNavLink("term_condition")}>Terms  & Conditions</Link></li>
                         {/* <li><a href="#contact" >Contact</a></li> */}
