@@ -1,26 +1,11 @@
 import React from 'react';
 import "../css/home.css";
-import about from "../assets/about.jpeg";
-import carousel from '../assets/carousel3.jpg';
+import carousel from "../assets/about.jpeg";
+import carousel3 from '../assets/carousel3.jpg';
 import carousel2 from '../assets/carousel2.jpg';
 const Banner = () => {
     return (
-        // <section className="home" id="home">
-        //     <div className="leftside">
-        //         <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </h1>
-        //         <p>Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum
-        //             quaerat.</p>
-        //         {/* <div className="button">
-        //             <a href="#"><button>Book a Table </button></a>
-        //             <a href=" https://youtu.be/LXb3EKWsInQ">
-        //                 <i className="fa-solid fa-circle-play"></i>Watch video
-        //             </a>
-        //         </div> */}
-        //     </div>
-        //     <div className="rightside">
-        //         <img src={banner_img} alt="hero img"/>
-        //     </div>
-        // </section>
+      
         <div id="carouselExampleAutoplaying" class="carousel slide mt-5" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -29,11 +14,11 @@ const Banner = () => {
             </div>
             <div class="carousel-inner carousel_size">
                 <div class="carousel-item active ">
-                    <img src={about} class="d-block w-100" alt="..." />
+                    <img src={carousel} class="d-block w-100" alt="..." />
                     <div class="carousel-caption  d-md-block banner_content">
                         <div>
-                            <h1>First slide label</h1>
-                            <p>Some representative placeholder content for the first slide.</p>
+                            <h1>Quality Craftsmanship, Unbeatable Prices</h1>
+                            <p>Experience luxury without the hefty price tag. We source our products from top-notch manufacturers, ensuring superior quality at affordable prices. Indulge in the finer things in life without breaking the bank – because you deserve the best.</p>
                         </div>
                         
                     </div>
@@ -43,18 +28,18 @@ const Banner = () => {
                     <img src={carousel2} class="d-block w-100" alt="..." />
                     <div class="carousel-caption d-md-block banner_content">
                         <div>
-                            <h1>Second slide label</h1>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            <h1>Express Yourself with Fashion</h1>
+                            <p>Fashion is more than just clothing – it's a form of self-expression. Embrace your individuality and showcase your unique style with our diverse range of options. Whether you're classic, edgy, or somewhere in between, let your outfit speak volumes.</p>
                         </div>
 
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src={carousel} class="d-block w-100" alt="..." />
+                    <img src={carousel3} class="d-block w-100" alt="..." />
                     <div class="carousel-caption  d-md-block banner_content">
                         <div>
-                            <h1>Third slide label</h1>
-                            <p>Some representative placeholder content for the third slide.</p>
+                            <h1>Shop the Latest Trends</h1>
+                            <p>Stay ahead of the curve with our ever-evolving selection of trendsetting pieces. Whether you're into bold prints, sophisticated silhouettes, or minimalist designs, we have something for every fashionista. Shop now and turn heads wherever you go.</p>
                         </div>
                     </div>
                 </div>
